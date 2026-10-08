@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="codeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="60%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#codeBg)" />
+
+  <!-- Code Editor Window -->
+  <g transform="translate(70, 60)">
+    <rect x="0" y="0" width="460" height="280" rx="12" fill="#020617" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+    
+    <!-- Window controls -->
+    <circle cx="24" cy="20" r="6" fill="#ef4444" />
+    <circle cx="44" cy="20" r="6" fill="#f59e0b" />
+    <circle cx="64" cy="20" r="6" fill="#10b981" />
+    <rect x="180" y="10" width="140" height="20" rx="4" fill="rgba(255,255,255,0.06)" />
+    <text x="250" y="24" fill="#94a3b8" font-family="monospace" font-size="11" text-anchor="middle">App.jsx</text>
+
+    <!-- Code lines -->
+    <g font-family="Consolas, Monaco, monospace" font-size="13">
+      <text x="28" y="70">
+        <tspan fill="#ec4899">const</tspan> <tspan fill="#38bdf8">DigitalGrowth</tspan> = <tspan fill="#f59e0b">()</tspan> =&gt; <tspan fill="#f59e0b">&#123;</tspan>
+      </text>
+      <text x="48" y="100">
+        <tspan fill="#ec4899">return</tspan> <tspan fill="#94a3b8">(</tspan>
+      </text>
+      <text x="68" y="130">
+        <tspan fill="#38bdf8">&lt;XntrovaPlatform</tspan>
+      </text>
+      <text x="88" y="160">
+        <tspan fill="#a7f3d0">performance</tspan>=<tspan fill="#f59e0b">"sub-second"</tspan>
+      </text>
+      <text x="88" y="190">
+        <tspan fill="#a7f3d0">conversionRate</tspan>=<tspan fill="#f59e0b">&#123;4.8&#125;</tspan>
+      </text>
+      <text x="88" y="220">
+        <tspan fill="#a7f3d0">seoReady</tspan>=<tspan fill="#38bdf8">&#123;true&#125;</tspan>
+      </text>
+      <text x="68" y="250">
+        <tspan fill="#38bdf8">/&gt;</tspan>
+      </text>
+    </g>
+
+    <!-- Badge badge -->
+    <g transform="translate(320, 160)">
+      <rect x="0" y="0" width="120" height="85" rx="8" fill="rgba(0,139,185,0.2)" stroke="#008bb9" stroke-width="1.5" />
+      <text x="60" y="28" fill="#00e5ff" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">PAGE SPEED</text>
+      <text x="60" y="55" fill="#10b981" font-family="sans-serif" font-size="24" font-weight="900" text-anchor="middle">99/100</text>
+      <text x="60" y="74" fill="#ffffff" font-family="sans-serif" font-size="10" text-anchor="middle">Core Web Vitals</text>
+    </g>
+  </g>
+</svg>
